@@ -1,2 +1,2 @@
-# jfx-ext
-JavaFX-Extend
+# JavaFX-Extend
+Library offering extra functionality and controls to help with JavaFX desktop application development.
