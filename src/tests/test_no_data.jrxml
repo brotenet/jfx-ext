@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="test_no_data" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a2a5ab2b-1999-43d6-941d-937c5e4cb2f0">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="298" splitType="Stretch">
+			<image>
+				<reportElement x="206" y="10" width="142" height="146" uuid="4ccc610c-c30f-461f-8c63-95e447c49d0c"/>
+				<imageExpression><![CDATA["tests/java_logo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="180" width="555" height="31" uuid="5f20bf71-1124-4970-91a4-d288d80f380c"/>
+				<textElement textAlignment="Center">
+					<font size="26" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Front Page]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="211" width="160" height="59" uuid="f00fbb01-84dc-4ffb-9d62-a8ea21a3d25c"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[This is a test report with no data and no connected data-source.]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="158" splitType="Stretch"/>
+	</detail>
+</jasperReport>

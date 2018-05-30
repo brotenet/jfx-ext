@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="main">
+	<target name="main">
+		<ant antfile="build_api.commons.xml" target="main"/>
+		<ant antfile="build_api.reporting.jasper.xml" target="main"/>
+	</target>
+</project>
