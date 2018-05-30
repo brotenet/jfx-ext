@@ -1,7 +1,7 @@
 # JFX-Extend
 Library offering extra functionality and controls to help with JavaFX desktop application development.
 
-[Click here for binary .jar downloads](../jar)
+[Click here for binary .jar downloads](../../jar)
 
 ## api.commons
 - **Environment.Session** : Provides access to data related to the running application session.
